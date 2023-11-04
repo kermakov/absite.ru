@@ -1,0 +1,176 @@
+a:link
+{
+  color:#0000cc; text-decoration:none;
+}
+
+a:visited
+{
+  color:#0000cc; text-decoration:none;
+}
+
+a:active
+{
+  color:#0000cc; text-decoration:none;
+}
+
+a:hover
+{
+  color:#0000cc;text-decoration:underline;
+}
+
+span.a0 {color:#0000cc; text-decoration:none;}
+span.a0:hover {color:#0000cc; text-decoration:underline; cursor:pointer;}
+
+body
+{
+  background-color: #CFD6FE;
+  font-family: verdana, sans-serif;
+  font-size: 10pt;
+  color:#000000;
+}
+
+.bd
+{
+  position:absolute; 
+  left:30px; 
+  top:10px;
+}
+
+form
+{
+  margin-bottom: 0px;
+}
+
+input
+{
+  font-size: 9pt;
+}
+
+hr
+{
+  color:#CFD6FE
+}
+
+.c3
+{
+  background-color: #cfd6fe;
+  font-size: 8pt;
+}
+
+.c2
+{
+  font-size: 7pt;
+}
+
+.set
+{
+  font-size: 8pt;
+}
+
+.smmenu
+{
+  font-size: 8pt;
+}
+
+.small
+{ 
+  font-size: 8pt;
+}
+
+.ans{ 
+font-family: verdana, sans-serif; font-size: 9pt 
+} 
+.centercol{
+font-family: verdana, sans-serif; font-size: 10pt;
+}
+.head{ 
+font-family: verdana, sans-serif; font-size: 10pt 
+} 
+.menu{
+font: bold 10pt verdana, sans-serif
+}
+.menu1{
+font: 10pt verdana, sans-serif
+}
+
+.f7{
+font-size: 7pt;
+}
+.f8{
+font-size: 8pt;
+}
+.f9{
+font-size: 9pt;
+}
+.f10{
+font-size: 10pt;
+}
+.f11{
+font-size: 11pt;
+}
+.f12{
+font-size: 12pt;
+}
+.f13{
+font-size: 13pt;
+}
+.f13u{
+text-decoration: underline;
+font-size: 13pt
+}
+.f16{
+font-size: 16pt
+}
+
+h1{
+font-size: 16pt; font-weight:normal;
+}
+h2{
+font-size: 12pt; font-weight:normal;
+}
+h1.games{
+text-align:center;
+font-size: 14pt;
+margin-top:10px;
+}
+
+.sonf{
+text-align:left;
+font-size: 8pt;
+margin: 5px; margin-top:0;
+}
+
+div.sonf_next{
+text-align:right;
+}
+
+div.center{
+text-align:justify;
+width:430px;
+margin:10px;margin-top:0;
+}
+div.right{
+text-align:left;
+margin:5px;margin-top:0;
+}
+
+ul.menu
+{
+  margin: 15px 0 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+li.menu
+{
+  marign: 0;
+  padding: 4px;
+  font-weight: bold;
+  border-bottom: solid 1px #CFD6FE;
+}
+
+.quiz
+{
+  font-weight: bold;
+}

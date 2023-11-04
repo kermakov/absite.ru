@@ -1,0 +1,64 @@
+body
+{
+  font-family: verdana, sans-serif;
+  font-size: 10pt;
+  color:#000000;
+  position:absolute; 
+  left:10px; 
+  top:10px;
+  width:95%;
+}
+h1, .h1
+{
+  font-size:18pt;
+  text-align:left;
+  margin: 0;
+  font-weight: normal;
+}
+#set
+{
+  margin:20px 0 20px 0;
+  text-align:center;
+}
+#set > img {
+  max-width: 100%;
+  height: auto;
+}
+#clues {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#cr-pl, #cr-pr
+{
+  flex: 1;
+  margin: 10px;
+}
+.cr-space
+{
+  height:10px;
+  clear:both;
+}
+#kul_ad
+{
+  text-align:right;
+}
+#ad_kul {
+  width: 468px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+@media print{#kul_ad{display:none;}}
+@media screen and (max-width: 575px) {
+#clues {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#kul_ad {
+  max-width: 98vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+}

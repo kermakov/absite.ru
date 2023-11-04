@@ -1,0 +1,52 @@
+table.sudoku{
+  border-collapse: collapse;
+}
+td.sudoku{
+  border: 1px solid #000;
+  width: 29pt;
+  height: 29pt;
+  font: bold 22pt arial;
+  text-align: center;
+}
+td.numbers{
+  cursor: pointer
+}
+td.numbers:hover{
+  background-color:yellow;
+}
+.bbl{
+  border-left-width: 3px !important;
+}
+.bbr{
+  border-right-width: 3px !important;
+}
+.bbt{
+  border-top-width: 3px !important;
+}
+.bbb{
+  border-bottom-width: 3px !important;
+}
+.m{
+  margin:0 auto;
+}
+.w{
+  background: #fff;
+}
+.b{
+  background: #000;
+}
+.s1{
+  color: #000;
+  cursor: default;
+}
+.s0{
+  color: #00f;
+  cursor: default;
+}
+.s-left{
+  float:left;
+}
+.s-right{
+  float:right;
+  width:40pt;
+}

@@ -1,0 +1,37 @@
+table{
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid #000;
+  width: 29pt;
+  height: 29pt;
+  font: bold 22pt arial;
+  text-align: center;
+}
+.bbl{
+  border-left-width: 2px;
+}
+.bbr{
+  border-right-width: 2px;
+}
+.bbt{
+  border-top-width: 2px;
+}
+.bbb{
+  border-bottom-width: 2px;
+}
+.m{
+  margin:0 auto;
+}
+.w{
+  background: #fff;
+}
+.b{
+  background: #000;
+}
+.s1{
+  color: #000;
+}
+.s0{
+  color: #00f;
+}
