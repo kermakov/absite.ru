@@ -1,0 +1,745 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+a:link, .a {
+  color: #0000FA;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited {
+  color: #7614C7;
+  text-decoration: none;
+}
+a:active {
+  color: #0000FA;
+  text-decoration: none;
+}
+a:hover,
+span.a:hover,
+h3.a:hover {
+  color: #0000FA;
+  text-decoration: underline;
+}
+
+
+div.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 20px;
+  padding-bottom: 5px;
+}
+
+h1.head, a.head, a.head:hover, a.head:visited {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  text-decoration: none;
+  margin: 0;
+}
+
+.head-left, .head-right {
+  font-size: 12px;
+}
+
+div.head-left {
+  text-align: center;
+}
+
+a.menu {
+  display: block;
+}
+ul.menu {
+  list-style: none;
+  text-align: left;
+  margin: 15px 0 0 20px;
+  padding: 0;
+}
+li.menu {
+  font-weight: 700;
+  margin: 0;
+  padding: 6px 4px 6px 0;
+}
+
+li.level2 {
+  padding: 2px 4px 2px 10px;
+}
+
+h1
+{
+  font-size:24px;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+h2
+{
+  font-size:20px;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+h3
+{
+  font-size:16px;
+  text-align: left;
+  margin: 0;
+}
+
+input {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+button {
+  background-color: #fff;
+  border: 2px solid #cfd6fe;
+  padding: 10px;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0000FA;
+  border-color: #0000FA;
+  color: #eee;
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #666;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+
+.topnav {
+  width: 100%;
+  overflow: hidden;
+  -ms-overflow-style: none;
+}
+
+.footer {
+  font-size: 12px;
+  margin: 20px 1vw;
+}
+
+.topnav-scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.topnav-scroll > a {
+  padding: 20px;
+  font-weight: 700;
+}
+
+
+#game {
+  width: 800px;
+}
+
+.kw-game {
+  margin: 20px 0 50px 0;
+}
+
+.center-block {
+  max-width: 98vw;
+  margin: 0 1vw;
+}
+
+ul.cr-nav {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  width: 100%;
+  max-width: 828px;
+  margin: 0 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+li.cr-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  list-style: none;
+  padding: 0 30px 15px 0;
+  text-align: center;
+  font-size:14px;
+  line-height: 1em;
+  word-spacing: 3px;
+}
+
+li.cr-nav:last-child {
+  padding-right: 0;
+}
+
+li.j-nav {
+  width: 100px;
+  height: 180px;
+}
+
+div.j-nav {
+  width: 80px;
+  height: 80px;
+  border: solid #ccc 2px;
+  background: #eee;
+  padding: 10px;
+}
+
+img.nav-img {
+  border: 0 solid;
+  width: 80px;
+  height: 80px;
+}
+
+.cr-space {
+    height: 10px;
+    clear: both
+}
+
+.cr-line-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cr-left {
+  width: 48%;
+  box-sizing: border-box;
+  max-width: 50%;
+  margin-right: 10px;
+}
+
+.cr-right {
+  width: 48%;
+  box-sizing: border-box;
+  max-width: 50%;
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+ul.content {
+  text-align: left;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+li.content {
+  font-weight: 700;
+  margin: 0;
+  padding: 4px 4px 4px 0;
+}
+
+sup.h2 {
+  font-size: 70%
+}
+
+a.a-block {
+  display: block;
+}
+
+.mt0 {
+  margin-top: 0
+}
+
+#soc-p {
+  height: 46px;
+}
+
+/*
+.div_toggle {
+  min-width: 120px;
+  margin-bottom: 20px;
+}
+*/
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+/*  top: 10px;*/
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cfd6fe;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #0000FA;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #0000FA;
+}
+
+input:checked + .slider::before {
+  transform: translateX(16px);
+}
+
+.bgMain {
+  background: #cfd6fe;
+  border-bottom: solid 2px #4353a5;
+}
+
+.Content {
+  width: 800px;
+  padding: 10px;
+}
+
+.TopAds, .TopAdsLeft, .TopAdsRight {
+  border-bottom: solid 1px #4353a5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TopAdsBanner {
+  width: 468px;
+  height: 80px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 170px min-content 320px auto;
+  grid-template-rows: 100px 44px min-content min-content auto;
+  gap: 0px 0px;
+  overflow: hidden;
+  grid-template-areas:
+    "TopAdsLeft TopAds TopAds TopAds TopAdsRight"
+    "TopNavLeft TopNav TopNav TopNav TopNavRight"
+    "HeaderLeft Header Header Header HeaderRight"
+    "SideLeft LeftNav Content RightAds SideRight"
+    "SideLeft Footer Footer Footer SideRight"
+    "SideLeft GAdsRevoke GAdsRevoke GAdsRevoke SideRight";
+}
+
+.TopNav { grid-area: TopNav; }
+
+.LeftNav { grid-area: LeftNav; }
+
+.Content { grid-area: Content; }
+
+.Footer { grid-area: Footer; }
+
+.RightAds { grid-area: RightAds; }
+
+.TopAds { grid-area: TopAds; }
+
+.TopAdsLeft { grid-area: TopAdsLeft; }
+
+.Header { grid-area: Header; }
+
+.HeaderLeft { grid-area: HeaderLeft; }
+
+.TopAdsRight { grid-area: TopAdsRight; }
+
+.HeaderRight { grid-area: HeaderRight; }
+
+.TopNavLeft { grid-area: TopNavLeft; }
+
+.TopNavRight { grid-area: TopNavRight; }
+
+.SideLeft { grid-area: SideLeft; }
+
+.SideRight { grid-area: SideRight; }
+
+.google-revocation-link-placeholder { grid-area: GAdsRevoke; }
+
+@media all and (-ms-high-contrast:none) {
+  .grid-container {
+    display: -ms-grid;
+    -ms-grid-columns: auto 170px min-content 320px auto;
+    -ms-grid-rows: 100px 44px min-content min-content auto;
+  }
+
+  .TopNav {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+  }
+
+  .LeftNav {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+
+  .Content {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+
+  .Footer {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+  }
+
+  .RightAds {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+  }
+
+  .TopAds {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+  }
+
+  .TopAdsLeft {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+
+  .Header {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+  }
+
+  .HeaderLeft {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+
+  .TopAdsRight {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+  }
+
+  .HeaderRight {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+  }
+
+  .TopNavLeft {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+
+  .TopNavRight {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+  }
+
+  .SideLeft {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+
+  .SideRight {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+  }
+}
+
+@media all and (max-width: 575px) {
+body, html{
+ max-width: 100%;
+}
+
+.grid-container { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 44px min-content 1fr min-content auto;
+  gap: 0px 0px;
+  grid-template-areas: 
+    "TopAds"
+    "TopNav"
+    "Header"
+    "Content"
+    "Footer"
+    "GAdsRevoke";
+  }
+
+.TopAds {
+}
+
+.TopAdsBanner {
+  max-width: 98vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.Header, .Footer, .topnav-scroll {
+  max-width: 575px;
+  width: 100vw;
+}
+
+ul.cr-nav {
+  width: 98vw;
+}
+
+.cr-line-wrap {
+  display: block;
+}
+
+.cr-left {
+  width: 95%;
+  max-width: 95%;
+  margin: 0;
+}
+
+.cr-right {
+  width: 95%;
+  max-width: 95%;
+  margin: 0;
+}
+
+/*
+.div_toggle {
+  min-width: 120px;
+  padding-top: 20px;
+}
+*/
+
+.toggle_text {
+/*  position: absolute;
+  top: -10px;
+  left: 50px;*/
+}
+
+
+.mobile-hide {
+  display: none;
+}
+
+.Content {
+  max-width: 575px;
+  width: 100vw;
+  padding: 0;
+}
+
+.LeftNav, .RightAds, .TopAdsLeft, .HeaderLeft, .TopAdsRight, .HeaderRight, .TopNavLeft, .TopNavRight, .SideLeft, .SideRight {
+  display: none;
+}
+
+div.head {
+  padding-top: 5px;
+}
+
+div.head-right {
+  display: none;
+}
+
+h1.head, a.head, a.head:hover, a.head:visited {
+  font-size: 20px;
+  line-height: 100%;
+}
+
+/*.topnav-scroll > a {
+  margin-right: 10px;
+}*/
+
+#game {
+  width:98vw;
+}
+
+}
+/*end @media all and (max-width: 575px)*/
+
+@media all and (min-width: 575px) and (max-width: 992px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto min-content auto;
+  grid-template-rows: 100px 44px min-content auto auto auto;
+  gap: 0px 0px;
+  grid-template-areas:
+    "TopAdsLeft TopAds TopAdsRight"
+    "TopNavLeft TopNav TopNavRight"
+    "HeaderLeft Header HeaderRight"
+    "SideLeft Content SideRight"
+    "SideLeft Footer SideRight"
+    "SideLeft GAdsRevoke SideRight";
+}
+
+.LeftNav, .RightAds {
+  display: none;
+}
+
+/*.topnav-scroll > a {
+  margin-right: 10px;
+}*/
+
+.topnav-scroll {
+  max-width: 98vw;
+}
+
+div.head {
+  padding-top: 5px;
+}
+
+div.head-right {
+  display: none;
+}
+
+ul.cr-nav {
+  width: 94vw;
+  max-width: 94vw;
+}
+
+#game {
+  width: 96vw;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+.Content {
+  width: 96vw;
+  padding: 1vw;
+}
+
+}
+/*end @media all and (max-width: 992px)*/
+
+@media all and (min-width: 575px) {
+  .TopAdsBanner {
+  margin-right: 20px;
+}
+
+ul.wrap {
+  width: auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+li.sd:nth-child(2n) {
+  padding-right: 0;
+}
+
+}
+/*end @media all and (min-width: 576px)*/
+
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto min-content 170px auto;
+  grid-template-rows: 100px 44px min-content min-content auto auto;
+  gap: 0px 0px;
+  grid-template-areas:
+    "TopAdsLeft TopAds TopAds TopAdsRight"
+    "TopNavLeft TopNav TopNav TopNavRight"
+    "HeaderLeft Header Header HeaderRight"
+    "SideLeft Content RightAds SideRight"
+    "SideLeft Footer Footer SideRight"
+    "SideLeft GAdsRevoke GAdsRevoke SideRight";
+}
+
+.LeftNav {
+  display: none;
+  }
+
+}
+/*end @media all and (min-width: 992px) and (max-width: 1199px)*/
+
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 170px min-content 170px auto;
+  grid-template-rows: 100px 44px min-content min-content auto auto;
+  gap: 0px 0px;
+  grid-template-areas:
+    "TopAdsLeft TopAds TopAds TopAds TopAdsRight"
+    "TopNavLeft TopNav TopNav TopNav TopNavRight"
+    "HeaderLeft Header Header Header HeaderRight"
+    "SideLeft LeftNav Content RightAds SideRight"
+    "SideLeft Footer Footer Footer SideRight"
+    "SideLeft GAdsRevoke GAdsRevoke GAdsRevoke SideRight";
+}
+
+}
+/*end @media all and (min-width: 1200px) and (max-width: 1399px)*/
+
+@media all and (min-width: 1400px) {
+.RightAds {
+  margin: 10px 5px 0 15px;
+}
+
+}
+/*end media all and (min-width: 1200px)*/
+
